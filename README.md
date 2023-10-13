@@ -17,7 +17,7 @@ Decoding:
 from PyBitCrypt import pbc
 key = 'SampleKey1!'
 text = 'SampleText1!'
-encoded = pbc.encrypt(key, text)
+encoded = pbc.decrypt(key, text)
 ```
 
 Enjoy!
